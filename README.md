@@ -1,5 +1,3 @@
-wait you actually read this
+Hello I'm Jay, thanks for checking out my page!
 
-whats good im fluffbird
-
-feel free to use my code for anything its pretty bad anyways
+Feel free to use my code for whatever and if you make anything cool with it let me know.
