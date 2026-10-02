@@ -35,7 +35,8 @@ can_draw = False
 in_PM_search_box = False
 offset_y = 35
 offset_x = -100
-font_directory = "Data/roboto/Roboto-Regular.ttf"
+font_directory = "Congress App Chall/Data/roboto/Roboto-Regular.ttf"
+
 
 
 while run:
@@ -354,15 +355,14 @@ while run:
             # screen.blit(mouse_y_pos, (400, 360))
             
             
-
             
         # search icons
-        spyglass_image_for_person = pygame.image.load("Data\Search Icon.png").convert_alpha()
+        spyglass_image_for_person = pygame.image.load("Congress App Chall/Data/Search Icon.png").convert_alpha()
         DEFAULT_IMAGE_SIZE = (155,95)
         spyglass_image_for_person = pygame.transform.scale(spyglass_image_for_person, DEFAULT_IMAGE_SIZE)
         screen.blit(spyglass_image_for_person, (355,17 + offset_y))
 
-        spyglass_image_for_person2 = pygame.image.load("Data\Search Icon.png").convert_alpha()
+        spyglass_image_for_person2 = pygame.image.load("Congress App Chall/Data/Search Icon.png").convert_alpha()
         DEFAULT_IMAGE_SIZE = (155,95)
         spyglass_image_for_person = pygame.transform.scale(spyglass_image_for_person, DEFAULT_IMAGE_SIZE)
         screen.blit(spyglass_image_for_person, (625 + offset_x,17 + offset_y))

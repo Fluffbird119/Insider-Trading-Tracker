@@ -6,7 +6,7 @@ def set_up(year):
     HEADER_TEXT = ["Prefix", "Last", "First", "Suffix",	"FilingType", "StateDst", "Year", "FilingDate", "DocID"]
 
     fileData = year + "FD"
-    filename = os.path.abspath("Data/" + fileData + "/" + fileData + ".txt") #? might need changing to find Data properly when translated to exe in the Beta exes folder
+    filename = os.path.abspath("Congress App Chall/Data/" + fileData + "/" + fileData + ".txt") #? might need changing to find Data properly when translated to exe in the Beta exes folder
 
     splitText = []
 
